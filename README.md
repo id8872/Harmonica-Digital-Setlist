@@ -41,29 +41,19 @@ Format your SD card as **FAT32**. Create a folder and file exactly as shown belo
 
 # Amazing Grace
 6 7 8 7 8 -8 7 -6 6
-
 A-maz-ing grace, how sweet the sound
-
 6 7 8 7 8 -8 9
-
 That saved a wretch like me
-
 8 9 8 9 8 7 6 -6 6
-
 I once was lost, but now am found
-
 6 7 8 7 8 -8 7
-
 Was blind, but now I see
 
-
-#When the Saints
-4 5 -5 6 4 5 -5 6
-
+# When the Saints
+4 5 -5 6
+4 5 -5 6
 4 5 -5 6 5 4 5 -4
-
 5 5 -4 4 4 5 6 6 6 -5
-
 5 -5 6 5 4 -4 4
 
 
@@ -106,5 +96,6 @@ The router might be too far away, or the 10-second timeout expired. The device i
 
 ### Screen didn't refresh?
 The device might be in Deep Sleep. Press a button to wake it.
+
 
 
