@@ -39,31 +39,44 @@ Format your SD card as **FAT32**. Create a folder and file exactly as shown belo
 
 **Example content for `SETLIST.txt`:**
 
-# Piano Man
-5 6 6 6 6 6 6 -6 -6
-It's nine o-clock on a sat-ur-day...
+# Amazing Grace
+6 7 8 7 8 -8 7 -6 6
+A-maz-ing grace, how sweet the sound
+6 7 8 7 8 -8 9
+That saved a wretch like me
+8 9 8 9 8 7 6 -6 6
+I once was lost, but now am found
+6 7 8 7 8 -8 7
+Was blind, but now I see
 
-# Autumn Leaves
-+2 -3 +4 -5  +3 -3 -4 +5
+# When the Saints
+4 5 -5 6 4 5 -5 6
+4 5 -5 6 5 4 5 -4
+5 5 -4 4 4 5 6 6 6 -5
+5 -5 6 5 4 -4 4
 
-2. Wi-Fi ConfigurationCreate a new tab in your Arduino IDE named secrets.h and add your credentials:C++#ifndef SECRETS_H
+### 2. Wi-Fi Configuration
+Create a new tab in your Arduino IDE named secrets.h and add your credentials:
+
+#ifndef SECRETS_H
 #define SECRETS_H
 #define SECRET_SSID "Your_WiFi_Name"
 #define SECRET_PASS "Your_WiFi_Password"
 #endif
 
-3. UploadingOpen Harmonica.ino.
+### 3. Uploading
+Open Harmonica.ino.
 Select Board: "ESP32S3 Dev Module" (or specific reTerminal board definition).
 Enable PSRAM in the Tools menu if available.
 Upload the code.
 
-🎮 Controls
-Button                Action
+### 🎮 Controls
+### Button                Action
 Right Button (White)  Next Song / Wake Up
 Left Button (Green)   Previous Song / Wake Up
 Note: If the device is asleep (screen unchanged but unresponsive), pressing either button will wake it up and reload the current song.
 
-🌐 Using the Web Editor
+### 🌐 Using the Web Editor
 Turn on the device.
 On the Splash Screen, note the IP Address (e.g., 192.168.1.50).
 Open a browser on your phone or laptop and go to http://192.168.1.50.
@@ -71,14 +84,14 @@ You will see a text box with your current setlist.
 Edit the text and click "Save & Update Device".
 The device will instantly refresh to show your changes!
 
-⚠️ Troubleshooting
+### ⚠️ Troubleshooting
 
-"Game Over" Message
+### "Game Over" Message
 The device cannot read the SD card. Check that the card is inserted fully and formatted as FAT32. Ensure the folder is named /HarmonicaTab/ (case sensitive).
 
-Wi-Fi Connects but says "Offline"
+### Wi-Fi Connects but says "Offline"
 The router might be too far away, or the 10-second timeout expired. The device is still usable in offline mode.
 
-Screen didn't refresh?
-
+### Screen didn't refresh?
 The device might be in Deep Sleep. Press a button to wake it.
+
