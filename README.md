@@ -1,6 +1,7 @@
 # 🎵 Harmonica Digital Setlist
 
 A smart, E-Ink based digital jukebox for harmonica tabs. This project runs on the **Seeed Studio reTerminal E1002** (ESP32) and reads song lyrics/tabs from an SD card. It features auto-scaling fonts, a wireless web editor, and ultra-low power deep sleep.
+I use this to leave the tab right in front of me and everytime I walk passed it a play the tune I'm working on.
 
 ## ✨ Features
 
@@ -79,4 +80,5 @@ Wi-Fi Connects but says "Offline"
 The router might be too far away, or the 10-second timeout expired. The device is still usable in offline mode.
 
 Screen didn't refresh?
+
 The device might be in Deep Sleep. Press a button to wake it.
