@@ -59,13 +59,13 @@ Was blind, but now I see
 
 ### 2. Wi-Fi Configuration
 Create a new tab in your Arduino IDE named secrets.h and add your credentials:
-
+```text
 #ifndef SECRETS_H
 #define SECRETS_H
 #define SECRET_SSID "Your_WiFi_Name"
 #define SECRET_PASS "Your_WiFi_Password"
 #endif
-
+```
 ### 3. Uploading
 Open Harmonica.ino.
 Select Board: "ESP32S3 Dev Module" (or specific reTerminal board definition).
@@ -96,6 +96,7 @@ The router might be too far away, or the 10-second timeout expired. The device i
 
 ### Screen didn't refresh?
 The device might be in Deep Sleep. Press a button to wake it.
+
 
 
 
